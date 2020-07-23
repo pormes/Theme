@@ -1,0 +1,11 @@
+NANO BASH.BASHRC
+PORMES17 BLUE_YELLOW
+
+if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
+        command_not_found_handle() {
+                /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+        }
+fi
+
+PS1='\033[01;93m\]┌──\[\033[01;91m\] MR.PORMES17\[\033[01;93m\] |MASTER| \[\033[01;37m\]\h\[\033[00;34m\]\[\033[01;93m
+└╼\[\033[01;93m\] \# ●○● \[\033[01;93m\]'
