@@ -16,7 +16,7 @@ $ pkg install nano
 $ pkg install screenfetch
 $ gem install lolcat
 $ pkg install git
-$ git clone https://github.com/pormes/Theme.git
+$ git clone https://github.com/pormes/blue-yellow-theme.git
 
 Open sesion 2
 $ nano .bashrc (copy paste file)
