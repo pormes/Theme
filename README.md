@@ -36,3 +36,25 @@ Open new sesion
 And like a pro your theme on termux
 
 See my youtube channels "PORMES CHANNELS"
+
+clear
+R='\033[1;31m'
+B='\033[1;34m'
+C='\033[0;36m'
+G='\033[1;32m'
+W='\033[1;37m'
+Y='\033[1;33m'
+NOW=`date "+%d.%m.%Y"`TIME=`date "+%H:%M"`
+
+echo -e $C        "█▀█░█▀█░█▀█░█▀█░█░█░█▄█░█▀█░█░█░█▀▀"
+echo -e $C        "█▀█░█░█░█░█░█░█░░█░░█░█░█░█░█░█░▀▀█"
+echo -e $C        "▀░▀░▀░▀░▀▀▀░▀░▀░░▀░░▀░▀░▀▀▀░▀▀▀░▀▀▀"
+
+if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
+        command_not_found_handle() {
+                /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+        }
+fi
+
+PS1='\033[01;36m\]┌──\[\033[01;36m\] MR.PORMES17\[\033[01;36m\] |MASTER| \[\033[01;36m\]\h\[\033[01;                 
+└╼\[\033[01;36m\] \# ●○● \[\033[01;36m\]'
